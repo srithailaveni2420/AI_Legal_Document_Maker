@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.hero{
+    padding: 2%;
+    background: #041E42;
+    min-height: 100px;
+    width:100%;
+    color:#e85a5a;
+    position: relative;
+    
+  
+}
+
+
+h1{
+    padding: 2.5%;
+    flex: 1;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    
+    
+    
+}
+
+
+/*aboutus,feedback login/signin*/
+
+
+.header{
+    
+    height: 100%;
+    width: 100%;
+    background-color:#041E42;
+    
+
+}
+
+.header ul li{
+    display:inline-block ;
+    
+
+}
+
+
+
+
+
+
+
+
+
+/* body*/
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    
+}
+
+
+
+.contact-head{
+    padding: 2%;
+    height: 100%;
+    background:linear-gradient(90deg, #0b3866 0%, #95f9c3 200%);
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-head h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 0;
+}
+.contact-head h2{
+    font-size: 2rem;
+    color: #ef6767;
+    text-transform: uppercase;
+    padding:2%;
+    letter-spacing: 4px;
+}
+
+.text{
+    
+    text-align: center;
+    padding: 2%;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.contact-head ul{
+    display: inline-block;
+    list-style: none;
+    
+
+}
+
+
+.contact-head ul li{
+    
+    
+    justify-content: space-between;
+    float:left;
+    text-transform: uppercase;
+    color:#95f9c3;
+    font-size:x-small;
+    font-size:14px ;
+    
+
+}
+
+
+
+.contact-form{
+
+    padding: 3rem 0;
+    
+}
+.contact-form form{
+    padding-bottom: 1rem;
+}
+.form-control{
+    width: 100%;
+    border: 1.5px solid #c7c7c7;
+    border-radius: 5px;
+    padding: 0.7rem;
+    margin: 0.6rem 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    outline: 0;
+}
+.form-control:focus{
+    box-shadow: 0 0 6px -3px rgba(48, 48, 48, 1);
+}
+.contact-form form div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.6rem;
+}
+.send-btn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    background: #041E42;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.send-btn:hover{
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+.footer{
+    
+    height: 100%;
+    width: 100%;
+    background-color:#041E42;
+    
+
+}
+
+.footer ul li{
+    display:inline-block ;
+    
+
+}
+
+.site
+{
+    background: #041E42;
+    text-align:center;
+    margin-right:0;
+    padding-top: 20px;
+    padding-bottom:10px ;
+    padding-right:30px ;
+}
+
+.site ul{
+    display: inline-block;
+    list-style: none;
+    transform: skew(-5deg);
+
+}
+
+.site ul li{
+    
+    
+    justify-content: space-between;
+    float:left;
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: 500;
+    font-size:x-small;
+    font-size:16px ;
+    transition:all 0.2s linear;
+    border-radius: 0 7px 0 7px;
+}
+
+
+.site ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    padding:0 20px 40px 40px;
+    display: block;
+    transition:all 0.3s;
+}
+
+.site ul li a:hover {
+    transform: scale(1.4);
+}
+
+
+
+
+.social{
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: antiquewhite;
+}
+.social a{
+
+    margin: 20%;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    width: 90px;
+    padding:20px;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.3s;
+
+}
+
+.social a:hover{
+    transform: scale(1.1);
+    background-color: antiquewhite;
+    color:#181829
+}
+
+.changelog{
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
